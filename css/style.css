@@ -413,7 +413,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 	justify-content: center;
 }
 .addplaylist{
-	padding-top: 20px;
+	padding-top: 10px;
 	align-content: center;
 
 }
