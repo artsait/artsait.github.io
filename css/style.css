@@ -25,8 +25,13 @@ body{
 .header-container a{
 	color: #000;
 	font-size: 18px;
-	margin-right: 63px;
 	padding: 16px 0px;
+}
+.header-container .lmenu a{
+	margin-right: 60px;
+}
+.header-container .fav a{
+	margin-right: 30px;
 }
 .header-container .menu a:hover{
 	color: #0032d3;
