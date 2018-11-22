@@ -366,10 +366,14 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 	border: none;
 	color: #999;
 	cursor: pointer;
-	font-size: 14px;
+	font-size: 10px;
 	margin-top: 10px;
 	margin-bottom: 40px;
 
+}
+.favcontentbars img {
+	width: 100px;
+	height: 100px;
 }
 .palb{
 	width: 150px;
