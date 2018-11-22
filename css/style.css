@@ -389,7 +389,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 }
 .favplaylisttext{
 	align-self: center;
-	margin-left: 0px;
+	margin-left: 20px;
 }
 
 .favcover .like{
