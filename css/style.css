@@ -6,6 +6,11 @@
 }
 body{
 	font-family: 'Montserrat', sans-serif;
+	background-color: #f9f9f9;
+}
+.centralcont{
+	width: 75%;
+	margin: auto;
 	background-color: #fff;
 }
 .pagecontainer{
