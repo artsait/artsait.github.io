@@ -34,6 +34,7 @@
 	<meta http-equiv="Cache-Control" content="no-cache">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/track.css">
+	<link rel="stylesheet" href="css/usermenu.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC" rel="stylesheet">
@@ -44,31 +45,40 @@
 <div id="tabs">
 	<div class="pagecontainer">	
 	<header>
-
 		<div class="header-container">
-					<div class="logo">
-						<a class="" href="index.html">
-							<span class="logotext">Сибстудия</span></a>
-					</div>
-			<div class="menu">
-				<ul class="lmenu">
-					<li><a class="tab whiteborder" href="#">Главное</a></li>
-					<li><a class="tab" href="#">Новое</a></li>
-					<li><a class="tab" href="#">Альбомы</a></li>
-					<li><a class="tab" href="#">Треки</a></li>
-				</ul>
+			<div class="nav">
+				<div class="logo"><a href="index.html"><span class="logotext">Сибстудия</span></a></div>
+				<div class="menu">
+					<ul class="lmenu">
+						<li><a class="tab whiteborder" href="#">Главное</a></li>
+						<li><a class="tab" href="#">Новое</a></li>
+						<li><a class="tab" href="#">Альбомы</a></li>
+						<li><a class="tab" href="#">Песни</a></li>
+					</ul>
+					<ul class="fav">
+						<li><a class="tab" href="#">Моя музыка</a></li>
+						<li class="menu-click">
+							<a class="favicont button">
+								<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIhSURBVFhH7ZfPSxVRFIBfpNUicu8q17W0RS2DktBatMjCtVASBVHUPnAXBIHov9AqCoMSN25alBiCEu3baNoPCPql9X3xDgyDL9+8mfuCmA8+eJ6559zrzNxz32vU1NTUNA7hJZzBJ02n8SJ67Z/Rg3fwA/5qodduo2O7Sh/OYX4xr5rmF/0czekKe3EeY/IlPIPZu+RnY68xxvkPmZscH1lM+hD3Yyu85pgYfwuT4kv/EZ3MO7cPd8NFLqM5m5h047hb424MG2gTx0beqIFU2D6cxE1QZGf24mc01xrJeIxO8vLPX8Vwd5trjWQ8wrILtEYy7qOTlHnE9wykwuPLSbTIJhnByLtgIBW2jPfoRDbhdtrMAYw2s47t5JTiJsbdsAm7gFZ4Lduob2By9mD2HPZO+gjzR91ZzB915naFg/gUY3L1hHGnLuKnZiycRXO6hu/RddzC7EJ20jHXMPm7FxzDt5hdxDa+w/i65Wdj2TFvcBCTMobfMSZdwcvYj3mMXcFVjPHmep4nwR74E53oK05gO83aMVfRHHOtUXkvPIpf0AnsZcexKCdwA61hrSNYCbaGF2jhb3gSO8XcH2itBayk7ZxHC+pdAyWZxKh3zkBZnqHF1rCKb8PWiOPSXloKf4nFxnhgoCKm0JrWLtXAT6OFdMhARVgr6p4y0Cn2uCh02EBFDGDUHTfQKfY+D3n928/Lolgr6jpHTU3Nf0qj8RuRxLuSJdUsugAAAABJRU5ErkJggg==">
+							</a>
+
+
+										<ul class="submenu">
+											<li><a href="#">Рассказы</a></li>
+											<li><a href="#">Проповеди</a></li>
+											<li><a href="#">Настройки</a></li>
+											<li><a href="#">Выйти</a></li>
+										</ul>
+
+						</li>
+					</ul>
+
+
+				</div>
+
 			</div>
-					<div class="fav">
-						<a class="tab" href="#">Моя музыка</a>
-					</div>
-
-							<a class="favicon" href="#">
-							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIhSURBVFhH7ZfPSxVRFIBfpNUicu8q17W0RS2DktBatMjCtVASBVHUPnAXBIHov9AqCoMSN25alBiCEu3baNoPCPql9X3xDgyDL9+8mfuCmA8+eJ6559zrzNxz32vU1NTUNA7hJZzBJ02n8SJ67Z/Rg3fwA/5qodduo2O7Sh/OYX4xr5rmF/0czekKe3EeY/IlPIPZu+RnY68xxvkPmZscH1lM+hD3Yyu85pgYfwuT4kv/EZ3MO7cPd8NFLqM5m5h047hb424MG2gTx0beqIFU2D6cxE1QZGf24mc01xrJeIxO8vLPX8Vwd5trjWQ8wrILtEYy7qOTlHnE9wykwuPLSbTIJhnByLtgIBW2jPfoRDbhdtrMAYw2s47t5JTiJsbdsAm7gFZ4Lduob2By9mD2HPZO+gjzR91ZzB915naFg/gUY3L1hHGnLuKnZiycRXO6hu/RddzC7EJ20jHXMPm7FxzDt5hdxDa+w/i65Wdj2TFvcBCTMobfMSZdwcvYj3mMXcFVjPHmep4nwR74E53oK05gO83aMVfRHHOtUXkvPIpf0AnsZcexKCdwA61hrSNYCbaGF2jhb3gSO8XcH2itBayk7ZxHC+pdAyWZxKh3zkBZnqHF1rCKb8PWiOPSXloKf4nFxnhgoCKm0JrWLtXAT6OFdMhARVgr6p4y0Cn2uCh02EBFDGDUHTfQKfY+D3n928/Lolgr6jpHTU3Nf0qj8RuRxLuSJdUsugAAAABJRU5ErkJggg==">
-						</a>
-					
 		</div>
-
-	</header>
+	</header>	
 		
 	<hr>
 
@@ -293,7 +303,7 @@
 					<div class="track">
 						
 						<img class="play" src="img/play.png">
-						<a  class="name" href="#">Название трека</a>
+						<a  class="name" href="#">Название песни</a>
 						<p>4:32</p>
 						<img class="like" src="img/like.png">
 
@@ -302,7 +312,7 @@
 					<div class="track">
 						
 						<img class="play" src="img/play.png">
-						<a  class="name" href="#">Название трека</a>
+						<a  class="name" href="#">Название песни</a>
 						<p>4:32</p>
 						<img class="like" src="img/like.png">
 
@@ -311,7 +321,7 @@
 					<div class="track">
 						
 						<img class="play" src="img/play.png">
-						<a  class="name" href="#">Название трека</a>
+						<a  class="name" href="#">Название песни</a>
 						<p>4:32</p>
 						<img class="like" src="img/like.png">
 
@@ -320,7 +330,7 @@
 					<div class="track">
 						
 						<img class="play" src="img/play.png">
-						<a  class="name" href="#">Название трека</a>
+						<a  class="name" href="#">Название песни</a>
 						<p>4:32</p>
 						<img class="like" src="img/like.png">
 
@@ -329,7 +339,7 @@
 					<div class="track">
 						
 						<img class="play" src="img/play.png">
-						<a  class="name" href="#">Название трека</a>
+						<a  class="name" href="#">Название песни</a>
 						<p>4:32</p>
 						<img class="like" src="img/like.png">
 
@@ -338,7 +348,7 @@
 					<div class="track">
 						
 						<img class="play" src="img/play.png">
-						<a  class="name" href="#">Название трека</a>
+						<a  class="name" href="#">Название песни</a>
 						<p>4:32</p>
 						<img class="like" src="img/like.png">
 
@@ -347,7 +357,7 @@
 					<div class="track">
 						
 						<img class="play" src="img/play.png">
-						<a  class="name" href="#">Название трека</a>
+						<a  class="name" href="#">Название песни</a>
 						<p>4:32</p>
 						<img class="like" src="img/like.png">
 
@@ -661,7 +671,7 @@
 		<section class="mainblock1">
 				
 
-					<div class="main-title-span"><span>Самая любимая музыка</span></div>
+					<div class="main-title-span"><span>Чаще всего слушают</span></div>
 					<div class="maintracks">
 
 							<div class="trackslist">
@@ -842,7 +852,7 @@
 			<div class="mymenu">
 				<ul>
 					<li><a class="select" href="#">Плейлисты</a></li>
-					<li><a href="#">Мои треки</a></li>
+					<li><a href="#">Мои песни</a></li>
 					<li><a href="#">Мои альбомы</a></li>
 					<li><a href="#">История</a></li>
 				</ul>
@@ -929,7 +939,8 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 
-	<script src="js/script.js"></script>	
+	<script src="js/script.js"></script>
+	<script src="js/menu-js.js"></script>		
 
 
 

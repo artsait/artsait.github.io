@@ -63,6 +63,7 @@ body{
 .menu{
 	display: flex;
 	margin: auto;
+	width: 75%;
 }
 .header-container ul{
 	display: flex;
@@ -79,6 +80,12 @@ body{
 	margin: auto;
 	list-style: none;
 }
+.nav{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
 .fav{
 	margin-left: auto;
 	display: flex;
@@ -483,6 +490,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 	width: 50px;
 	align-self: center;
 }
+
 
 .favplaylisttext a{
 	text-decoration: none;
