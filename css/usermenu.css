@@ -16,7 +16,7 @@ ul .submenu{
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
   visibility: hidden;
-  width: 250px;
+  width: 232px;
 
 }
 
@@ -35,7 +35,7 @@ ul .submenu{
   border-bottom: 15px solid #f7f7f7;
   content: "";
   height: 0;
-  left: 65px;
+  right: 45px;
   position: absolute;
   bottom: 197px;
   width: 0px;
