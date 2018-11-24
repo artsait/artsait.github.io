@@ -5,6 +5,7 @@
 }
 .newalbomscontainer{
 	display: flex;
+	justify-content: space-around;
 }
 .newalbomscover{
 	width: 300px;
@@ -12,8 +13,8 @@
 	margin-top: 30px;
 }
 .blocktrack{
-	width: 700px;
-	margin: auto;
+	/*width: 700px;
+	margin: auto;*/
 }
 .namealbom{
 	padding-bottom: 20px;
@@ -29,7 +30,7 @@
 	font-size: 30px;
 }
 .trackslist{
-	width: 600px;
+	width: 550px;
 }
 .track{
 	display: flex;

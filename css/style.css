@@ -147,8 +147,83 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .bigblock{
-	height: 700px;
+	height: 500px;
 }
+
+.mainblock1{
+	margin-bottom: 100px;
+}
+
+.mainblocks{
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 300px;
+	width: 100%;
+	background-color: #fff;
+}
+.mainblock{
+	height: 250px;
+	width: 200px;
+	margin-right: 20px;
+	display: flex;
+	background-color: #fff;
+	justify-content: center;
+	flex-direction: column;
+}
+.mainblock:hover{
+		background-color: #fafafa;
+}
+.cover-main-block{
+	height: 180px;
+	width: 180px;
+	display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+	background-color: #aaa;
+}
+.cover-main-block img{
+	height: 180px;
+	width: 180px;
+}
+.text-main-block{
+	width: 180px;
+	height: 40px;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+
+}
+.text-main-block a{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	border: none;
+	color: #000;
+	cursor: pointer;
+	font-size: 14px;
+	word-break: break-all;
+}
+
+.main-title-span{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	border: none;
+	color: #000;
+	cursor: pointer;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+
+.maintracks{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
 .sectionalbom{
 	margin: 10px auto auto auto;
 	width: 1200px;
@@ -228,8 +303,9 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .alboms{
 	display: flex;
-	justify-content: space-between;
+	/*justify-content: space-between;
 	/*width: 1200px;*/
+	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: flex-start;
 }
@@ -238,7 +314,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 	border-bottom: 3px solid #0032d3;
 }
 #tabs .tabContent {
-
+	background-color: #fff;
 }
 #tabs .hide {
     display: none;
@@ -252,6 +328,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 	flex-direction: column;
 	width: 220px;
 	overflow: hidden;
+	margin-right: 20px;
 }
 
 .albom a{
@@ -345,11 +422,6 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 	display: flex;
 	justify-content: space-between;
 }
-
-
-
-
-
 
 
 .favcontentbars{
