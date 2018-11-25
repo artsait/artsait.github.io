@@ -35,7 +35,8 @@ body{
 .header-container .lmenu a{
 	margin-right: 60px;
 }
-.favtab{
+
+.fav .tab{
 	margin-right: 40px;
 }
 .header-container .menu a:hover{
